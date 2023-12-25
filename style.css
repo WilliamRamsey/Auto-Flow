@@ -1,0 +1,128 @@
+:root {
+    --cool-primary: #264653;
+    --cool-secondary: #2A9D8F;
+    --warm-primary: #E76F51;
+    --warm-secondary: #F4A261;
+    --accent-color: #E9C46A;
+    --light-text: white;
+    --dark-text: black;
+}
+
+body {
+    background-color: var(--dark-text);
+}
+
+button {
+    background-color: var(--accent-color);
+    height: fit-content;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #E6AF2E;
+}
+
+p {
+    color: var(--dark-text);
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+p:hover {
+    background-color: #E6AF2E;
+}
+
+h1 {
+    color: var(--light-text);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: var(--light-text);
+    font-family: Arial, sans-serif; 
+}
+
+h3 {
+    color: #262730;
+    font-family: Arial, sans-serif;
+}
+
+.flow-grid {
+    display: grid;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+.AC1 {
+    background-color: var(--cool-primary);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius: 10px;
+}
+
+.NC1 {
+    background-color: var(--warm-primary);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-radius: 10px;
+}
+
+
+.AC2 {
+    background-color: var(--cool-primary);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-radius: 10px;
+}
+
+.NC2 {
+    background-color: var(--warm-primary);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-radius: 10px;
+}
+
+.NR1 {
+    background-color: var(--warm-primary);
+    grid-column-start: 5;
+    grid-column-end: 6;
+    border-radius: 10px;
+}
+
+.AR1 {
+    background-color: var(--cool-primary);
+    grid-column-start: 6;
+    grid-column-end: 7;
+    border-radius: 10px;
+}
+
+.NR2 {
+    background-color: var(--warm-primary);
+    grid-column-start: 7;
+    grid-column-end: 8;
+    border-radius: 10px;
+}
+
+.AR2 {
+    background-color: var(--cool-primary);
+    grid-column-start: 8;
+    grid-column-end: 9;
+    border-radius: 10px;
+}
+
+.aff-argument {
+    background-color: var(--cool-secondary);
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.neg-argument {
+    background-color: var(--warm-secondary);
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+}
